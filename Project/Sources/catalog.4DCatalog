@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_ConvertFormToDynamicForm" uuid="1194009FAAEF4A3FB143B30F02A27E3D" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Samples" uuid="DB9618A6FCEA4AE6A28551939E52143C" id="1">
+		<field name="ID" uuid="7ACBB98C9ED84A1CBC3A3A79EA45811D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Text" uuid="6689AA03B5634A37A927DA69C6CF4D7F" type="10" never_null="true" id="2"/>
+		<field name="Title" uuid="D257A90903824FE18528A3B597D96B52" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="SampleSort" uuid="0CA66A2A2264485788EB333ED2B728A2" type="3" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="7ACBB98C9ED84A1CBC3A3A79EA45811D"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="A7451CE9C6E54713AA77CDA31AB7335C" type="7">
+		<field_ref uuid="7ACBB98C9ED84A1CBC3A3A79EA45811D" name="ID">
+			<table_ref uuid="DB9618A6FCEA4AE6A28551939E52143C" name="Samples"/>
+		</field_ref>
+	</index>
+	<base_extra package_name="HDI_ConvertFormToDynamicForm" structure_file_name="HDI_ConvertFormToDynamicForm" data_file_path=":HDI_ConvertFormToDynamicForm.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
