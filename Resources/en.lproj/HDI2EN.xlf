@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="HDI2" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_BtnConvert" resname="HDI2_BtnConvert">
+				<source>Convert</source>
+				<target>Convert</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnChangeSize" resname="HDI2_BtnChangeSize">
+				<source>Change size</source>
+				<target>Change size</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnInvert" resname="HDI2_BtnInvert">
+				<source>Invert Photo/Text</source>
+				<target>Invert Photo/Text</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnSave" resname="HDI2_BtnSave">
+				<source>Save</source>
+				<target>Save</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelForm4DB" resname="HDI2_LabelForm4DB">
+				<source>Contact form stored in 4DB file</source>
+				<target>Contact form stored in 4DB file</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelFormJSON" resname="HDI2_LabelFormJSON">
+				<source>Contact form stored in a JSON file</source>
+				<target>Contact form stored in a JSON file</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

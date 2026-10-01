@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="SamplesOutput" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="SamplesOutput_ShowAll" resname="SamplesOutput_ShowAll">
+				<source>Show all</source>
+				<target>Show all</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_ShowSubset" resname="SamplesOutput_ShowSubset">
+				<source>Show subset</source>
+				<target>Show subset</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_Query" resname="SamplesOutput_Query">
+				<source>Query</source>
+				<target>Query</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_OrderBy" resname="SamplesOutput_OrderBy">
+				<source>Order by</source>
+				<target>Order by</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_QuickReports" resname="SamplesOutput_QuickReports">
+				<source>Quick reports</source>
+				<target>Quick reports</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_PrintLabels" resname="SamplesOutput_PrintLabels">
+				<source>Print labels</source>
+				<target>Print labels</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_Print" resname="SamplesOutput_Print">
+				<source>Print</source>
+				<target>Print</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_Finish" resname="SamplesOutput_Finish">
+				<source>Finish</source>
+				<target>Finish</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_ID" resname="SamplesOutput_ID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_TitleField" resname="SamplesOutput_TitleField">
+				<source>Title : </source>
+				<target>Title : </target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_Text" resname="SamplesOutput_Text">
+				<source>Text : </source>
+				<target>Text : </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="SamplesInput" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="SamplesInput_Title" resname="SamplesInput_Title">
+				<source>Table_1</source>
+				<target>Table_1</target>
+			</trans-unit>
+			<trans-unit id="SamplesInput_First" resname="SamplesInput_First">
+				<source>First</source>
+				<target>最初</target>
+			</trans-unit>
+			<trans-unit id="SamplesInput_Previous" resname="SamplesInput_Previous">
+				<source>Previous</source>
+				<target>前へ</target>
+			</trans-unit>
+			<trans-unit id="SamplesInput_Next" resname="SamplesInput_Next">
+				<source>Next</source>
+				<target>次へ</target>
+			</trans-unit>
+			<trans-unit id="SamplesInput_Last" resname="SamplesInput_Last">
+				<source>Last</source>
+				<target>最後</target>
+			</trans-unit>
+			<trans-unit id="SamplesInput_Validate" resname="SamplesInput_Validate">
+				<source>Validate</source>
+				<target>確定</target>
+			</trans-unit>
+			<trans-unit id="SamplesInput_ID" resname="SamplesInput_ID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="SamplesInput_TitleField" resname="SamplesInput_TitleField">
+				<source>Title : </source>
+				<target>タイトル : </target>
+			</trans-unit>
+			<trans-unit id="SamplesInput_Text" resname="SamplesInput_Text">
+				<source>Text : </source>
+				<target>テキスト : </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
