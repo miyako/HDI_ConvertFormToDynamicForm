@@ -1,5 +1,5 @@
-C_TEXT:C284($object)
-C_LONGINT:C283(; $info)
+var $object : Text
+var $info : Integer
 
 
 If (oDynForm.pages[1].objects.Photo.left=20)

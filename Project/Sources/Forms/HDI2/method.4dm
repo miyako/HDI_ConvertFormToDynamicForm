@@ -1,10 +1,10 @@
+var oDynForm : Object
+
 Case of 
 		
 	: (Form event code:C388=On Load:K2:1)
 		
 		initHDI
-		
-		C_OBJECT:C1216(oDynForm)
 		
 		
 	: (Form event code:C388=On Page Change:K2:54)

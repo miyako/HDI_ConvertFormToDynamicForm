@@ -94,28 +94,28 @@
 					"top": 186,
 					"left": 280,
 					"width": 100,
-					"height": 20,
-					"text": "OK",
+					"text": ":xliff:CommonOK",
 					"fontFamily": "Arial",
 					"fontSize": 12,
 					"focusable": false,
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"btnCancel": {
 					"type": "button",
 					"top": 186,
 					"left": 400,
 					"width": 100,
-					"height": 20,
-					"text": "Cancel",
+					"text": ":xliff:CommonCancel",
 					"fontFamily": "Arial",
 					"fontSize": 12,
 					"focusable": false,
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text": {
 					"type": "text",
@@ -126,7 +126,8 @@
 					"textAlign": "right",
 					"fontFamily": "Arial",
 					"fontSize": 12,
-					"text": "Last name:"
+					"text": ":xliff:Contact_LastName",
+					"stroke": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -137,7 +138,8 @@
 					"textAlign": "right",
 					"fontFamily": "Arial",
 					"fontSize": 12,
-					"text": "First name:"
+					"text": ":xliff:Contact_FirstName",
+					"stroke": "automatic"
 				},
 				"Text2": {
 					"type": "text",
@@ -148,7 +150,8 @@
 					"textAlign": "right",
 					"fontFamily": "Arial",
 					"fontSize": 12,
-					"text": "Birthdate:"
+					"text": ":xliff:Contact_Birthdate",
+					"stroke": "automatic"
 				},
 				"Text3": {
 					"type": "text",
@@ -159,7 +162,8 @@
 					"textAlign": "right",
 					"fontFamily": "Arial",
 					"fontSize": 12,
-					"text": "Address:"
+					"text": ":xliff:Contact_Address",
+					"stroke": "automatic"
 				}
 			}
 		}

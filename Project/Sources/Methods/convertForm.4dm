@@ -1,5 +1,5 @@
-//%attributes = {}
-C_OBJECT:C1216($oDynForm)
+//%attributes = {"invisible":true}
+var $oDynForm : Object
 
 // Convert the Contact form in a dynamic form
 $oDynForm:=FORM Convert to dynamic:C1570("Contact")

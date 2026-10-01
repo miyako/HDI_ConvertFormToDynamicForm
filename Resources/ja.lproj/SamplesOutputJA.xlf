@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="SamplesOutput" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="SamplesOutput_ShowAll" resname="SamplesOutput_ShowAll">
+				<source>Show all</source>
+				<target>すべて表示</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_ShowSubset" resname="SamplesOutput_ShowSubset">
+				<source>Show subset</source>
+				<target>サブセットを表示</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_Query" resname="SamplesOutput_Query">
+				<source>Query</source>
+				<target>検索</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_OrderBy" resname="SamplesOutput_OrderBy">
+				<source>Order by</source>
+				<target>並び替え</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_QuickReports" resname="SamplesOutput_QuickReports">
+				<source>Quick reports</source>
+				<target>クイックレポート</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_PrintLabels" resname="SamplesOutput_PrintLabels">
+				<source>Print labels</source>
+				<target>ラベル印刷</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_Print" resname="SamplesOutput_Print">
+				<source>Print</source>
+				<target>印刷</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_Finish" resname="SamplesOutput_Finish">
+				<source>Finish</source>
+				<target>終了</target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_ID" resname="SamplesOutput_ID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_TitleField" resname="SamplesOutput_TitleField">
+				<source>Title : </source>
+				<target>タイトル : </target>
+			</trans-unit>
+			<trans-unit id="SamplesOutput_Text" resname="SamplesOutput_Text">
+				<source>Text : </source>
+				<target>テキスト : </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

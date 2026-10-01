@@ -1,4 +1,4 @@
-C_TEXT:C284($object)
+var $object : Text
 
 // Loop in all objects
 For each ($object; oDynForm.pages[1].objects)

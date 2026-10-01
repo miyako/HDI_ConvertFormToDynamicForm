@@ -90,13 +90,13 @@
 					"top": 200,
 					"left": 40,
 					"width": 121,
-					"height": 20,
-					"text": "Convert",
+					"text": ":xliff:HDI2_BtnConvert",
 					"focusable": false,
 					"method": "ObjectMethods/btnConvert.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Subform4DB": {
 					"type": "subform",
@@ -125,7 +125,8 @@
 					"height": 17,
 					"sizingX": "grow",
 					"fontWeight": "bold",
-					"text": "Contact form stored in 4DB file"
+					"text": ":xliff:HDI2_LabelForm4DB",
+					"stroke": "automatic"
 				},
 				"SubformDynamic": {
 					"type": "subform",
@@ -153,7 +154,8 @@
 					"height": 17,
 					"sizingX": "grow",
 					"fontWeight": "bold",
-					"text": "Contact form stored in a JSON file"
+					"text": ":xliff:HDI2_LabelFormJSON",
+					"stroke": "automatic"
 				},
 				"Splitter1": {
 					"type": "splitter",
@@ -213,24 +215,24 @@
 					"top": 200,
 					"left": 40,
 					"width": 130,
-					"height": 20,
-					"text": "Change size",
+					"text": ":xliff:HDI2_BtnChangeSize",
 					"method": "ObjectMethods/btnChangeSize.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"btnInvert": {
 					"type": "button",
 					"top": 200,
 					"left": 190,
 					"width": 130,
-					"height": 20,
-					"text": "Invert Photo/Text",
+					"text": ":xliff:HDI2_BtnInvert",
 					"method": "ObjectMethods/btnInvert.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable": {
 					"type": "input",
@@ -266,12 +268,12 @@
 					"top": 200,
 					"left": 340,
 					"width": 130,
-					"height": 20,
-					"text": "Save",
+					"text": ":xliff:HDI2_BtnSave",
 					"method": "ObjectMethods/btnSave.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		}

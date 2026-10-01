@@ -66,9 +66,9 @@
 					"left": 5,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Add"
+					"text": ":xliff:CommonAdd"
 				},
 				"bDelete": {
 					"type": "pictureButton",
@@ -95,9 +95,9 @@
 					"left": 77,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Delete"
+					"text": ":xliff:CommonDelete"
 				},
 				"bShowAll": {
 					"type": "pictureButton",
@@ -124,9 +124,9 @@
 					"left": 149,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Show all"
+					"text": ":xliff:SamplesOutput_ShowAll"
 				},
 				"bShowSubSet": {
 					"type": "pictureButton",
@@ -153,9 +153,9 @@
 					"left": 221,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Show subset"
+					"text": ":xliff:SamplesOutput_ShowSubset"
 				},
 				"bQuery": {
 					"type": "pictureButton",
@@ -182,9 +182,9 @@
 					"left": 293,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Query"
+					"text": ":xliff:SamplesOutput_Query"
 				},
 				"bOrderBy": {
 					"type": "pictureButton",
@@ -211,9 +211,9 @@
 					"left": 365,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Order by"
+					"text": ":xliff:SamplesOutput_OrderBy"
 				},
 				"bReport": {
 					"type": "pictureButton",
@@ -240,9 +240,9 @@
 					"left": 437,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Quick reports"
+					"text": ":xliff:SamplesOutput_QuickReports"
 				},
 				"bLabels": {
 					"type": "pictureButton",
@@ -269,9 +269,9 @@
 					"left": 509,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Print labels"
+					"text": ":xliff:SamplesOutput_PrintLabels"
 				},
 				"bPrint": {
 					"type": "pictureButton",
@@ -298,9 +298,9 @@
 					"left": 581,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Print"
+					"text": ":xliff:SamplesOutput_Print"
 				},
 				"bDone": {
 					"type": "pictureButton",
@@ -327,9 +327,9 @@
 					"left": 653,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Finish"
+					"text": ":xliff:SamplesOutput_Finish"
 				},
 				"Picture4": {
 					"type": "picture",
@@ -348,7 +348,8 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "ID : "
+					"text": ":xliff:SamplesOutput_ID",
+					"stroke": "automatic"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -357,7 +358,8 @@
 					"width": 280,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Title : "
+					"text": ":xliff:SamplesOutput_TitleField",
+					"stroke": "automatic"
 				},
 				"S3_Text": {
 					"type": "text",
@@ -366,7 +368,8 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Text : "
+					"text": ":xliff:SamplesOutput_Text",
+					"stroke": "automatic"
 				},
 				"Rectangle5": {
 					"type": "rectangle",
@@ -375,7 +378,8 @@
 					"width": 741,
 					"height": 25,
 					"sizingX": "grow",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "automatic"
 				},
 				"S1_Field": {
 					"type": "input",
@@ -413,7 +417,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Samples:1]Title:3",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -438,7 +442,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Samples:1]Text:2",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -460,7 +464,7 @@
 					"top": 78,
 					"left": 0,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "grid-line"
 				},
 				"Line7": {
 					"type": "line",
@@ -468,14 +472,14 @@
 					"left": 741,
 					"height": 49,
 					"sizingX": "move",
-					"stroke": "#A8A8A8"
+					"class": "grid-line"
 				},
 				"Line8": {
 					"type": "line",
 					"top": 78,
 					"left": 416,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "grid-line"
 				},
 				"Splitter2": {
 					"type": "splitter",
@@ -494,7 +498,7 @@
 					"top": 78,
 					"left": 104,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "grid-line"
 				},
 				"Splitter3": {
 					"type": "splitter",
